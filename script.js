@@ -7,7 +7,7 @@ class User {
     }
 }
 
-const webSocket = new WebSocket("ws://ec2-13-124-8-41.ap-northeast-2.compute.amazonaws.com:9000");
+const webSocket = new WebSocket("wss://ec2-13-124-8-41.ap-northeast-2.compute.amazonaws.com:9000");
 
 // 웹 소켓 연결 이벤트
 webSocket.onopen = function () {
